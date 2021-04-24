@@ -1,0 +1,7 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/gkaf/credits.vcss_c" />
+	</styles>
+	
+</root>

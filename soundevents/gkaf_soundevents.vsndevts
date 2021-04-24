@@ -1,0 +1,14 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	"GKaf.Music_SlowLight" =
+	{
+		type = "hlvr_music_3d"
+		volume = 1.5
+		volume_fade_out = 1
+		mixgroup = "Music"
+		vsnd_files = 
+		[
+			"sounds/gkaf/music/slowlight.vsnd",
+		]
+	}	
+}

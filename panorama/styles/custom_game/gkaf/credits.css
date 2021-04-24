@@ -1,0 +1,84 @@
+.CreditsPanel
+{
+	width: 100%;
+	height: 100%;
+	
+	margin: 0px;
+	border: 0px;
+	
+	font-family: Raju;
+	font-size: 200px;
+	font-weight: semi-bold;
+	
+	flow-children: down;
+	line-height: 0px;
+	
+}
+
+.CreditsText
+{
+	horizontal-align: center;
+	vertical-align: top;
+	flow-children: down;
+	
+	color: black;
+	/* color: gradient(linear, 0% 0%, 0% 100%, from( black ), to ( darkgray ) ); */
+	
+	opacity: 0;
+	
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+.TextBox
+{
+	text-align: center;
+	flow-children: right;
+}
+
+.TextBox Label
+{
+	text-align: center;
+	flow-children: right;
+}
+
+.TextBox Label.bold
+{
+	font-weight: bold;
+}
+
+.TextBox Label.bykaf
+{
+	font-weight: bold;
+	font-size: 250;
+}
+
+.TextBox Label.thanks
+{
+	font-weight: bold;
+	font-size: 300;
+}
+
+
+.header
+{
+	width: 100%;
+	height: 24px;
+	background-color: black;
+	margin: 0px;
+}
+
+.ShowPage #page,
+.ShowPlaytesters #playtesters,
+.ShowThankees #thankees,
+{
+	opacity: 1;
+}
+
+.HidePage #page,
+.HidePlaytesters #playtesters,
+.HideThankees #thankees,
+{
+	opacity: 0;
+	transition-duration: 2s;
+}

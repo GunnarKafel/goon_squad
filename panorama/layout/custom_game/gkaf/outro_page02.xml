@@ -1,0 +1,17 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/gkaf/credits.vcss_c" />
+	</styles>
+	<Panel class="CreditsPanel">
+		<Panel id="page" class="CreditsText">
+			<Label class="bold" text="PLAYTESTERS" />
+			<Panel class="header"/>
+		</Panel>
+		<Panel id="playtesters" class="CreditsText">
+			<Label text="GmanChewing" />
+			<Label text="JefferyMcBoyo" />
+			<Label text="mshee32" />
+		</Panel>
+	</Panel>
+</root>

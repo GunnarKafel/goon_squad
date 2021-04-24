@@ -1,0 +1,15 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/gkaf/credits.vcss_c" />
+	</styles>
+	<Panel class="CreditsPanel">
+		<Panel id="page" class="CreditsText">
+			<Label class="bold" text="SPECIAL THANKS" />
+			<Panel class="header"/>
+		</Panel>
+		<Panel id="thankees" class="CreditsText">
+			<Label text="HLA Modding Discord" />
+		</Panel>
+	</Panel>
+</root>

@@ -1,0 +1,143 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\gkaf\\ladder_cover\\dmx\\mesh\\handle.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "handpose_data"
+						game_keys = 
+						{
+							handpose_bone = ""
+							handpose_model = "models/props/max/handposes/handpose_grabpole.vmdl"
+							allow_procedural_handpose = false
+							global_pose_template = false
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "cylinder_idle"
+							pose_special_type = "0"
+							conform_fingers = false
+							allow_flip = false
+							parent_bone = ""
+							origin_left = [ -4.181, 0.735555, 3.01532 ]
+							angles_left = [ 89.999992, -0.0, 0.0 ]
+							origin_right = [ -4.181, -0.735555, 3.01532 ]
+							angles_right = [ 90.0, 0.0, 0.0 ]
+							max_distance = 3.0
+							finger_thumb = 1.0
+							finger_pinky = 1.0
+							finger_ring = 1.0
+							finger_middle = 1.0
+							finger_index = 1.0
+							has_extent = true
+							show_extent_helper = false
+							extent_origin_left = [ -16.0, 0.735555, 3.01532 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ -16.0, -0.735555, 3.01532 ]
+							extent_origin_min_right = [ -4.181, -0.735555, 3.01532 ]
+							has_rotation = false
+							rotation_axis0 = [ 0.0, 0.0, 10.0 ]
+							rotation_axis1 = [ 0.0, 0.0, -10.0 ]
+							rotation_min = 0.0
+							rotation_max = 0.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = ""
+							radius = 0.606747
+							point0 = [ -17.9586, 0.0, 2.5 ]
+							point1 = [ -1.22688, 0.0, 2.5 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Metal.Small"
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.metal"
+						collision_prop = "default"
+						origin = [ 0.0, 0.0, 1.5 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.0, 1.0, 3.0 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "_copy"
+						parent_bone = ""
+						surface_prop = "prop.metal"
+						collision_prop = "default"
+						origin = [ -19.0, 0.0, 1.5 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.0, 1.0, 3.0 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.metal"
+						collision_prop = "default"
+						origin = [ -9.5, 0.0, 2.5 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 20.0, 1.0, 1.0 ]
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}
